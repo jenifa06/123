@@ -1,0 +1,37 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <title>Budget Calculator</title>
+  <link rel="stylesheet" href="budget.css">
+  <script src="https://code.jquery.com/jquery-3.7.1.min.js"></script>
+  <script src="budget.js"></script>
+</head>
+<body>
+  <div class="container">
+    <h2>Budget Calculator</h2>
+    <label>Total Amount:</label>
+    <input type="number" id="amount" placeholder="Enter total amount"><br><br>
+
+    <label>Room Rent (%):</label>
+    <input type="number" id="rent" placeholder="Enter %"><br><br>
+
+    <label>Accessories (%):</label>
+    <input type="number" id="accessories" placeholder="Enter %"><br><br>
+
+    <label>Emergency (%):</label>
+    <input type="number" id="emergency" placeholder="Enter %"><br><br>
+
+    <label>Savings (%):</label>
+    <input type="number" id="saving" placeholder="Enter %"><br><br>
+
+    <button id="calcBtn">Evaluate My Money</button>
+
+    <h3>Result</h3>
+    <p>Room Rent: <span id="rentVal"></span></p>
+    <p>Accessories: <span id="accVal"></span></p>
+    <p>Emergency: <span id="emerVal"></span></p>
+    <p>Savings: <span id="savVal"></span></p>
+  </div>
+</body>
+</html>
